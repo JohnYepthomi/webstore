@@ -1,0 +1,35 @@
+/* color-scheme
+{
+  --COLOR1 :#5D001E;
+  --COLOR1 :#E3E2DF;
+  --COLOR1 :#E3AFBC;
+  --COLOR1 :#E3AFBC;
+  --COLOR1 :#9A1750;
+  --COLOR1 :#ee4c7c;
+} */
+
+*{
+  padding: 0;
+  margin : 0;
+}
+
+:root {
+  --font-sm : 11px;
+  --font-md : 15px;
+  --font-lg : 18px;
+  --color-dark :rgb(8, 8, 8);
+  --color-light :white;
+  --brand-color-1 :#5D001E;
+  --brand-color-2 :#9A1750;
+  --brand-color-3 :#ee4c7c;
+  --brand-color-4 :#E3AFBC;
+}
+
+body{
+  background-color: var(--color-light);
+  color: var(--color-dark);
+}
+
+.container{
+  padding: 0px 10px;
+}
